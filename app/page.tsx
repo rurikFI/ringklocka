@@ -155,7 +155,7 @@ export default function Home() {
           <button
             type="button"
             onClick={handleToggle}
-            className="inline-flex min-h-28 w-full items-center justify-center rounded-full bg-slate-950 px-8 py-6 text-2xl font-semibold text-white shadow-[0_18px_50px_rgba(15,23,42,0.35)] transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-sky-300 active:translate-y-0 sm:min-h-32 sm:text-3xl"
+            className="inline-flex min-h-28 w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-8 py-6 text-2xl font-semibold text-white shadow-[0_18px_50px_rgba(15,23,42,0.35)] transition hover:-translate-y-0.5 hover:bg-slate-800 focus:outline-none focus:ring-4 focus:ring-sky-300 active:translate-y-0 sm:min-h-32 sm:text-3xl"
           >
             {buttonLabel}
           </button>
